@@ -9,7 +9,7 @@ module.exports = {
   	extend: {
 		backgroundImage:{
 			casadopapainoel: "url('/casapapaiNoel.webp')",
-			neve:"url('/neves.gif')",
+			neve:"url('/neve.gif')",
 		},
 		fontFamily:{
 			nunito:['Nunito','sans-serif'],

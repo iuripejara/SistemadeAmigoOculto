@@ -7,7 +7,7 @@ export default function Login(){
     return(
         <div 
             className=" 
-                bg-neve h-screen w-screen  flex justify-center items-center 
+                bg-neve bg-cover h-screen w-screen  flex justify-center items-center 
                 "
             >
            

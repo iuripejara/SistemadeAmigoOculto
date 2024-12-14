@@ -3,6 +3,7 @@ import LandingPage from "./pages/landingPage/LandingPage";
 import Login from "./pages/login/Login";
 import CreateUser from "./items/CreateUser";
 import MinhaConta from "./items/MinhaConta";
+import CriacaoDeEventos from "./pages/CriacaoDeEventos/CriacaoDeEventos";
 
 const router  = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router  = createBrowserRouter([
                 element: <MinhaConta/>,
             },
         ],
+    },
+    {
+        path: "/CriacaoDeEventos",
+        element: <CriacaoDeEventos/>
     },
 ]);
 

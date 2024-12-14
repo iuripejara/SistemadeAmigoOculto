@@ -25,13 +25,17 @@ export default function MinhaConta() {
                     />
                 </div>
                 
-                <Button className="
+                <Link 
+                    to={"/CriacaoDeEventos"}
+                    className="
                     bg-zinc-50 text-preto hover:bg-preto hover:text-zinc-50
-                    transition-colors duration-300
+                    transition-colors duration-300 text-center p-2 rounded-md
                 
-                ">
+                "
+                >
                     Entrar
-                </Button>
+                </Link>
+                
                 <Link to={"new"} className="mt-3 text-center capitalize">Criar conta</Link>
             </div>
         </Form>
