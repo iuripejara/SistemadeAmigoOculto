@@ -1,0 +1,29 @@
+/* Container de Neve */
+.snowContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Evita interferência com cliques */
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* Floco de Neve */
+.snowflake {
+  position: absolute;
+  top: -50px; /* Começa acima da tela */
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  animation: fall linear infinite; /* Animação contínua */
+}
+
+/* Animação */
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
